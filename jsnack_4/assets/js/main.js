@@ -7,7 +7,7 @@ let sum = 0;
 
 for (let i = 0; i < 10; i++) {
 
-    if (int_num [i] % 2 == 0) {
+    if (int_num [i] % 3 == 0) {
         sum = sum + int_num [i];
     }
 }
