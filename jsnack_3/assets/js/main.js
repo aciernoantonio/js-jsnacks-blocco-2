@@ -11,7 +11,7 @@ let choice = prompt("vuoi aggiungere un nome e cognome alla fake list? [y/n]")
 
 while (choice == `y`) {
     
-    full_name = first_name[Math.ceil(Math.random() * 3)] + last_name[Math.ceil(Math.random() * 3)];
+    full_name = first_name[Math.floor(Math.random() * 3)] + last_name[Math.floor(Math.random() * 3)];
     
     fake_list.push(full_name);
     console.log(fake_list);
